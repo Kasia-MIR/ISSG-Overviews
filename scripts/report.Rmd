@@ -7,6 +7,7 @@ output: html_document
 
 # Introduction
 
+
 This report presents a catches data loaded from a xlsx file. 
 The report has a fantastic illustration of catches over the years
 
