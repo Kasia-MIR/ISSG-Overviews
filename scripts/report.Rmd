@@ -1,0 +1,54 @@
+---
+title: "report"
+author: "Krakówka Katarzyna"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Introduction
+
+This report presents a catches data loaded from a xlsx file.
+
+```{r setup, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(readxl)
+```
+
+# Load Data
+
+```{r load-data}
+
+data <- read_excel("../data/20260626_test_data.xlsx")
+
+# Show first rows
+head(data)
+```
+
+# Data Preparation
+
+```{r prepare-data}
+# Convert Date column to Date type (if exists)
+if("Date" %in% colnames(data)){
+  data$Date <- as.Date(data$Date)
+}
+```
+
+# Summary Statistics
+
+```{r summary}
+summary(data)
+```
+
+# Line Plot
+
+```{r line-plot}
+  ggplot(data, aes(x = as.factor(Year), y = Catches)) +
+    geom_line(color = "blue", linewidth = 1) +
+    labs(
+      title = "Catches",
+      x = "Year",
+      y = "Catch"
+    ) +
+    theme_minimal()
+```
