@@ -8,6 +8,7 @@ output: html_document
 # Introduction
 
 This report presents a catches data loaded from a xlsx file.
+The catches extra view 
 
 ```{r setup, message=FALSE, warning=FALSE}
 library(ggplot2)
