@@ -14,7 +14,7 @@ The report has a fantastic illustration of catches over the years
 ```{r setup, message=FALSE, warning=FALSE}
 library(ggplot2)
 library(dplyr)
-library(readxl)
+library(readxl) 
 ```
 
 # Load Data
