@@ -2,4 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+<<<<<<< HEAD
 data
+=======
+data/*.xlsx
+data/*.xls
+data/*.csv
+results/*.html
+results/*.pdf
+>>>>>>> main
