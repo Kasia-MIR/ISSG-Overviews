@@ -21,7 +21,8 @@ library(readxl)
 
 ```{r load-data}
 
-data <- read_excel("../data/20260626_test_data.xlsx")
+data <- read_excel("../data_lucia/20260626_test_data.xlsx")
+
 
 # Show first rows
 head(data)
