@@ -6,7 +6,8 @@ output: html_document
 ---
 
 # Introduction
-
+testing some changes in the branch and trying out gitignore.
+also assigning reviewer for pull request
 
 This report presents a catches data loaded from a xlsx file. 
 The report has a fantastic illustration of catches over the years
