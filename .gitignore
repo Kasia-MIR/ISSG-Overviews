@@ -2,12 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
-<<<<<<< HEAD
-data
-=======
+
+/data_lucia
+/data
+
 data/*.xlsx
 data/*.xls
 data/*.csv
 results/*.html
 results/*.pdf
->>>>>>> main
+
