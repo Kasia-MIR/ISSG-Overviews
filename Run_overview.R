@@ -6,3 +6,5 @@ rmarkdown::render(
   envir = new.env(parent = globalenv()),
   encoding = 'UTF-8'
 )
+
+# task related changes by Danique
